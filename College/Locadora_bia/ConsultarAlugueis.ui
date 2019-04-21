@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ConsultarAlugueis</class>
+ <widget class="QDialog" name="ConsultarAlugueis">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>871</width>
+    <height>572</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>501</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nome do Cliente / Nome Condutor</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonPesquisar">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>30</y>
+     <width>90</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget_Alugueis">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>851</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <property name="sortingEnabled">
+    <bool>true</bool>
+   </property>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="verticalHeaderHighlightSections">
+    <bool>false</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>Codigo</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Cliente</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Condutor</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Data de Retirada</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Data da Devolução</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Valor Total</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>61</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Alugueis</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>60</y>
+     <width>781</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_CodigoAluguel">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>731</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Digite o nome</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

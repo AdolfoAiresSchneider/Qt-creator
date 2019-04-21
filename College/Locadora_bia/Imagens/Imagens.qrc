@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>add-icon.png</file>
+        <file>edit-icon.png</file>
+        <file>remove-icon.png</file>
+        <file>save-icon.png</file>
+        <file>search-icon.png</file>
+        <file>close-icon.png</file>
+        <file>images.png</file>
+        <file>ocWTaL8.jpg</file>
+        <file>minimal_Desktop.jpg</file>
+    </qresource>
+</RCC>
